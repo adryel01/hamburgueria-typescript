@@ -1,3 +1,0 @@
-import { jsx as _jsx, Fragment as _Fragment, jsxs as _jsxs } from "react/jsx-runtime";
-const BaseTitle = ({ children, tag, className }) => (_jsxs(_Fragment, { children: [tag === 'h1' && _jsx("h1", { className: className, children: children }), tag === 'h2' && _jsx("h2", { className: className, children: children }), tag === 'h3' && _jsx("h3", { className: className, children: children }), tag === 'h4' && _jsx("h4", { className: className, children: children }), tag === 'h5' && _jsx("h5", { className: className, children: children }), tag === 'h6' && _jsx("h6", { className: className, children: children }), tag === 'span' && _jsx("span", { className: className, children: children })] }));
-export default BaseTitle;

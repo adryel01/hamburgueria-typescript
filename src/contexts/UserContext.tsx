@@ -26,6 +26,7 @@ export function UserProvider ({children}: iUserContextProps){
 			const response = await api.post('/login', loginUser)
 			localStorage.setItem('token', response.data.accessToken)
 			localStorage.setItem('userId', response.data.user.id)
+			console.log(response)
 			setTokenUser(response.data.accessToken)
 			toast.success('Login realizado com sucesso')
 			navigate('/shop')
